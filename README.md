@@ -6,7 +6,7 @@ The process is simple. Install MacPorts, install the gimp-resynthesizer port, an
 
 ## How does it work?
 In short, the script does the following:
-* Make sure everything is set up, e.g., the gmic-port is installed, etc.
+* Make sure everything is set up, e.g., the resynthesizer port is installed, etc.
 * Create the required directory structure
 * Copy all of the required files
 
@@ -32,8 +32,8 @@ The script will do everything for you. These are the steps.
   * Copy all of the required python scripts to the root of the directory structure
 * compress
   * Switch to the directory you executed the script from
-  * Switch to the gmic-gimp directory
-  * Compress everything under that directory as `gmic-gimp-<version>-<platform>-<arch>.tgz`, e.g., `gmic-gimp-3.3.5-darwin-arm64.tgz`
+  * Switch to the gimp-resynthesizer directory
+  * Compress everything under that directory as `gimp-resynthesizer-<version>-<platform>-<arch>.tgz`, e.g., `gmic-gimp-3.3.5-darwin-arm64.tgz`
  
 ### How do I use it?
 Once the process has completed you will have a directory structure that looks like this: `./some/path/gmic-gimp/lib/gimp/2.0/plug-ins`. You will now need to go configure GIMP to use the plugin.
