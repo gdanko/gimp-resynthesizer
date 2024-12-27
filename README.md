@@ -33,13 +33,13 @@ The script will do everything for you. These are the steps.
 * compress
   * Switch to the directory you executed the script from
   * Switch to the gimp-resynthesizer directory
-  * Compress everything under that directory as `gimp-resynthesizer-<version>-<platform>-<arch>.tgz`, e.g., `gmic-gimp-3.3.5-darwin-arm64.tgz`
+  * Compress everything under that directory as `gimp-resynthesizer-<version>-<platform>-<arch>.tgz`, e.g., `gimp-resynthesizer-20190428-adfa25ab-darwin-arm64.tgz`
  
 ### How do I use it?
-Once the process has completed you will have a directory structure that looks like this: `./some/path/gmic-gimp/lib/gimp/2.0/plug-ins`. You will now need to go configure GIMP to use the plugin.
+Once the process has completed you will have a directory structure that looks like this: `./some/path/gimp-resynthesizer/lib/gimp/2.0/plug-ins`. You will now need to go configure GIMP to use the plugin.
 1) Navigate to GIMP settings
 2) Expand `Folders`
 3) Click `Plug-ins`
 4) In the right pane, select the icon that looks like a piece of paper wit a plus sign in the top left corner
-5) Open the file selector to navigate to your directory structure, drilling down to `plug-ins`. In other words, if your ran the script from ~/Desktop, you will have the structure `/Users/bob/Desktop/gmic-gimp/lib/gimp/2.0/plug-ins`. You will select that path.
+5) Open the file selector to navigate to your directory structure, drilling down to `plug-ins`. In other words, if your ran the script from ~/Desktop, you will have the structure `/Users/bob/Desktop/gimp-resynthesizer/lib/gimp/2.0/plug-ins`. You will select that path.
 6) Restart GIMP so that it can re-read the plugins.
